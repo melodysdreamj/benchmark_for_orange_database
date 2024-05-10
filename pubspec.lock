@@ -196,10 +196,10 @@ packages:
     dependency: "direct main"
     description:
       name: orange
-      sha256: "1b14d7175c7bac3866438d5a04286ba768415094687afa417dd94ab7247faabc"
+      sha256: "9aba9e2489c0e8c7ed4b59965ab39a784d0cd14a02ee6072a9f8f2090568d1ac"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.1"
+    version: "1.2.0"
   path:
     dependency: transitive
     description:

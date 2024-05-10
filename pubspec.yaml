@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.6
   gap: ^3.0.1
   code_timer: ^1.0.4
-  orange: ^1.1.1
+  orange:
   shared_preferences: ^2.2.3
 
 dev_dependencies:

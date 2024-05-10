@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 await Orange.init();
                 CodeTimer.start();
                 for (int i = 0; i < 10000; i++) {
-                  await Orange.setInt('$i', i);
+                  Orange.setInt('$i', i);
                 }
                 CodeTimer.stop(label: 'orange 🍊 write performance test');
               },
@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 await Orange.init();
                 CodeTimer.start();
                 for (int i = 0; i < 10000; i++) {
-                  await Orange.getInt('$i');
+                  Orange.getInt('$i');
                 }
                 CodeTimer.stop(label: 'orange 🍊read performance test');
               },
