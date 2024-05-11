@@ -220,10 +220,10 @@ packages:
     dependency: "direct main"
     description:
       name: orange
-      sha256: "82da33222f29f2921e4e7088a7960ff86dff904c166fd69cf32b44efb147eb14"
+      sha256: a4f293e68867fa03515e3c48ecc355fd483b9fde438360c78d35d6b13462770b
       url: "https://pub.dev"
     source: hosted
-    version: "1.2.1"
+    version: "1.2.5"
   path:
     dependency: "direct main"
     description:

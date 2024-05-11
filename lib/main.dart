@@ -99,7 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
             FloatingActionButton.extended(onPressed: () async {
 
               String dbPath =
-                  '${(await getApplicationDocumentsDirectory()).path}/orange.db';
+                  '${(await getApplicationDocumentsDirectory()).path}/srmbast.db';
               DatabaseFactory dbFactory = databaseFactoryIo;
 
               var store = StoreRef.main();
